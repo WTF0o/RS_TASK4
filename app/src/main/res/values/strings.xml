@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RS_TASK4</string>
+    <string-array name="values_filter">
+        <item>name</item>
+        <item>age</item>
+        <item>breed</item>
+    </string-array>
+</resources>

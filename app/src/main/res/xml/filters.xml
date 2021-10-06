@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Использовать Room"
+        android:key="useRoom" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Использовать фильтры"
+        android:key="useFilter" />
+
+    <ListPreference
+        android:entries="@array/values_filter"
+        app:entryValues="@array/values_filter"
+        android:key="listFilter"
+        android:title="Фильтр по столбцу"/>
+
+    <EditTextPreference
+        android:title="Значение"
+        android:key="valueFilter"/>
+
+</PreferenceScreen>

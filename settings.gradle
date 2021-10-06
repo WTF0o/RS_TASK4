@@ -1,0 +1,2 @@
+rootProject.name = "RS_TASK4"
+include ':app'
